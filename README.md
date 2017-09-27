@@ -1,4 +1,4 @@
-# LaraTweet
+# MyTweet
 Twitter Clone build using Laravel 5.5.13
 
 ## Status 
