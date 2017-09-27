@@ -22,6 +22,7 @@
     }
     
     .navbar{
+        background: #fff;
         -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
         -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
@@ -79,7 +80,7 @@
                 <a href="#">Forgot password?</a>
                 <br><br>
                 <p style="font-size: 16px;color: #657786;font-weight: 400;">New to MyTweet? 
-                    <a href="#">Sign up now »</a>
+                    <a href="signup">Sign up now »</a>
                 </p>
                 <p style="font-size: 16px;color: #657786;font-weight: 400;">Already using Twitter via text message? 
                     <a href="#">Activate your account »</a>
