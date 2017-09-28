@@ -40,6 +40,7 @@
         font-size: 16px;
         padding-right: 15px;
         padding-left: 15px;
+        border: 0px;
     }
 
     .signup-helper{
