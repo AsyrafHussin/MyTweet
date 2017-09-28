@@ -17,11 +17,11 @@ class CreateProfilesTable extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->string('username');
-            $table->text('bio');
-            $table->string('location');
-            $table->string('website');
-            $table->string('photo');
-            $table->string('banner');
+            $table->text('bio')->nullable();
+            $table->string('location')->nullable();
+            $table->string('website')->nullable();
+            $table->string('photo')->nullable();
+            $table->string('banner')->nullable();
             $table->timestamps();
         });
     }
