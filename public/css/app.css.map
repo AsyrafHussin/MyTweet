@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAI,CACA,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,eAAe",
-"sources": ["../../resources/assets/sass/components/_buttons.scss"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "app.css"
 }
