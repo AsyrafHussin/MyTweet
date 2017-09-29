@@ -1,0 +1,27 @@
+.login-content{
+    padding:10%;
+    margin-top:-15%;
+    padding-bottom:0px;
+}
+
+.login-title{
+    margin-top: 15px;
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+
+.login-margin{
+    margin-right: 5px;
+}
+
+.login-helper{
+    font-size: 16px !important;
+    color: $helper-color;
+    font-weight: 400 !important; 
+}
+
+.login-helper-black{
+    color: $helper-color-black;
+    font-weight: normal;
+    font-size: 16px;
+}

@@ -3,54 +3,11 @@
 <head>
     <title>MyTweet | Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <style>
-    body{
-        background: #e6ecf0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 16px;
-    }
-
-    a{
-        color: #37a1e3;
-    }
-
-    .container{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    
-    .navbar{
-        background: #fff;
-        -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-    }
-
-    .jumbotron{
-        background: #fff;
-        border: 1px solid #d4d8da;
-    }
-
-    .btn-tweet{
-        background: #1da1f2;
-        border-radius: 20px;
-        text-weight: bold;
-        font-size: 16px;
-        padding-right: 15px;
-        padding-left: 15px;
-        border: 0px;
-    }
-
-    .signup-helper{
-        font-size: 14px;
-    }
-    </style>
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-      <div class="container">
+    <nav class="navbar navbar-default navbar-shadow">
+      <div class="container container-padding">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -63,10 +20,10 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container container-padding">
         <div class="jumbotron">
-          <div class="container" style="padding:10%;margin-top:-10%;padding-bottom:0px;">
-            <h3>Log in to MyTweet</h3><br>
+          <div class="container container-padding login-content">
+            <p class="login-title">Log in to MyTweet</p>
             <form>
                 <div class="row">
                     <div class="col-md-6">
@@ -74,22 +31,23 @@
                       <br>
                       <input type="text" placeholder="Password" class="form-control">  
                     </div>
-                </div><br>
-                <button class="btn btn-info btn-tweet" style="margin-right: 10px;">Login in</button>
-                <label class="checkbox-inline"><input type="checkbox" value=""> Remember me</label>
+                </div><br><br>
+                <button class="btn btn-info btn-tweet login-margin">Log in</button>
+                <label class="login-helpe login-helper-black" class="checkbox-inline"><input type="checkbox" value=""> Remember me</label>
                 <span class="separator">&middot;</span>
-                <a href="#">Forgot password?</a>
+                <a class="primary-link login-helper" href="#">Forgot password?</a>
                 <br><br>
-                <p style="font-size: 16px;color: #657786;font-weight: 400;">New to MyTweet? 
-                    <a href="signup">Sign up now »</a>
+                <p class="login-helper">New to MyTweet? 
+                    <a class="primary-link" href="signup">Sign up now »</a>
                 </p>
-                <p style="font-size: 16px;color: #657786;font-weight: 400;">Already using Twitter via text message? 
-                    <a href="#">Activate your account »</a>
+                <p class="login-helper">Already using Twitter via text message? 
+                    <a class="primary-link" href="#">Activate your account »</a>
                 </p>
             </form>
           </div>
         </div>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

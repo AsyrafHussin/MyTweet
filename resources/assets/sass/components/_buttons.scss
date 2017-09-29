@@ -1,0 +1,12 @@
+.btn-tweet{
+    background: $main-color;
+    border-radius: 20px;
+    text-weight: bold;
+    font-size: 16px;
+    padding: 8px 20px 8px 20px;
+    border: 0px;
+}
+
+.btn-tweet:hover{
+    background: darken($main-color,10); 
+}

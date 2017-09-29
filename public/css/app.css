@@ -8350,3 +8350,72 @@ button.close {
   }
 }
 
+* {
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.btn-tweet {
+  background: #1da1f2;
+  border-radius: 20px;
+  text-weight: bold;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  border: 0px;
+}
+
+.btn-tweet:hover {
+  background: #0c85d0;
+}
+
+.navbar-shadow {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container-padding {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.login-content {
+  padding: 10%;
+  margin-top: -15%;
+  padding-bottom: 0px;
+}
+
+.login-title {
+  margin-top: 15px;
+  font-weight: bold !important;
+  font-size: 24px !important;
+}
+
+.login-margin {
+  margin-right: 5px;
+}
+
+.login-helper {
+  font-size: 16px !important;
+  color: #657786;
+  font-weight: 400 !important;
+}
+
+.login-helper-black {
+  color: #000;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+body {
+  background: #e6ecf0;
+}
+
+.primary-link {
+  color: #37a1e3;
+}
+
+.jumbotron {
+  background: #fff;
+  border: 1px solid #d4d8da;
+}
+
