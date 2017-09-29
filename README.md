@@ -7,15 +7,15 @@ Still in development
 ## Screenshots
 * Login page
 <div align="center">
-   <img src="screenshots/1.login.png" width="600" />
+   <img src="screenshots/1.login.png" width="800" />
 </div>
 
 * Sign up page
 <div align="center">
-   <img src="screenshots/2.signup.png" width="600" />
+   <img src="screenshots/2.signup.png" width="800" />
 </div>
 
 * Home page
 <div align="center">
-   <img src="screenshots/3.home.png" width="600" />
+   <img src="screenshots/3.home.png" width="800" />
 </div>
