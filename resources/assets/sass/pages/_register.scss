@@ -1,0 +1,43 @@
+.container-register{
+    padding-top: 5%;
+    
+    div{
+        div{
+            padding: 5%;
+            padding-top: 0;
+
+            .register-title{
+                font-size: 27px; 
+                font-weight: bold !important;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.input-register{
+    border-radius: 0px;
+    border: 1px solid #e6ecf0;
+    box-shadow: none !important;
+    height: 45px;
+}
+
+.input-register::-webkit-input-placeholder {
+   color: $register-placeholder-color;
+   font-weight: bolder;
+}
+
+.btn-register{
+   height: 45px;
+}
+
+.register-label{
+    color: $helper-color;
+    font-size: 14px;
+    font-weight: regular !important;
+}
+
+.register-info{
+    font-size: 12px !important;
+    font-weight: regular !important;
+}

@@ -1,6 +1,55 @@
+.navbar{
+    .navbar-header{
+        .navbar-toggle {
+           border: none;
+        }
+
+        .navbar-toggle:focus{
+            background: transparent; 
+        }      
+
+        .navbar-toggle:hover{
+            background: transparent; 
+        }        
+
+        .navbar-toggle:visited{
+            background: transparent; 
+        }
+
+        .navbar-toggle:active{
+            background: transparent; 
+        }
+    }
+}
+
 .navbar-shadow{
     background: #fff;
     -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-register{
+    background-image: $navbar-register-color;
+    border-bottom: 1px solid #309383;
+
+    .navbar-header{
+        .navbar-toggle {
+           .icon-bar{ 
+             background: $white-color;
+           } 
+        }
+
+        .navbar-brand{
+            color: $white-color;
+        }
+    }
+
+    .navbar-right{
+        li{
+            a{
+                color: $white-color;
+            }
+        }
+    }
 }

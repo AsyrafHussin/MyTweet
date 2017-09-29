@@ -8367,10 +8367,48 @@ button.close {
   background: #0c85d0;
 }
 
+.navbar .navbar-header .navbar-toggle {
+  border: none;
+}
+
+.navbar .navbar-header .navbar-toggle:focus {
+  background: transparent;
+}
+
+.navbar .navbar-header .navbar-toggle:hover {
+  background: transparent;
+}
+
+.navbar .navbar-header .navbar-toggle:visited {
+  background: transparent;
+}
+
+.navbar .navbar-header .navbar-toggle:active {
+  background: transparent;
+}
+
 .navbar-shadow {
   background: #fff;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-register {
+  background-image: -webkit-gradient(linear, left top, right top, from(#58aee9), to(#36cc97));
+  background-image: linear-gradient(to right, #58aee9, #36cc97);
+  border-bottom: 1px solid #309383;
+}
+
+.navbar-register .navbar-header .navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+.navbar-register .navbar-header .navbar-brand {
+  color: #fff;
+}
+
+.navbar-register .navbar-right li a {
+  color: #fff;
 }
 
 .container-padding {
@@ -8410,8 +8448,55 @@ button.close {
   font-size: 16px;
 }
 
+.container-register {
+  padding-top: 5%;
+}
+
+.container-register div div {
+  padding: 5%;
+  padding-top: 0;
+}
+
+.container-register div div .register-title {
+  font-size: 27px;
+  font-weight: bold !important;
+  margin-left: 10px;
+}
+
+.input-register {
+  border-radius: 0px;
+  border: 1px solid #e6ecf0;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  height: 45px;
+}
+
+.input-register::-webkit-input-placeholder {
+  color: #aab8c2;
+  font-weight: bolder;
+}
+
+.btn-register {
+  height: 45px;
+}
+
+.register-label {
+  color: #657786;
+  font-size: 14px;
+  font-weight: regular !important;
+}
+
+.register-info {
+  font-size: 12px !important;
+  font-weight: regular !important;
+}
+
 body {
   background: #e6ecf0;
+}
+
+.white-body {
+  background: #fff;
 }
 
 .primary-link {
