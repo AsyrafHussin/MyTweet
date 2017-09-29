@@ -8374,8 +8374,8 @@ button.close {
 }
 
 .container-padding {
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
 }
 
 .login-content {
@@ -8414,8 +8414,13 @@ body {
   color: #37a1e3;
 }
 
+.primary-link:hover {
+  color: #37a1e3;
+}
+
 .jumbotron {
   background: #fff;
   border: 1px solid #d4d8da;
+  padding-bottom: 0px;
 }
 
