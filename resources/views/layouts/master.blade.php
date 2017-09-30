@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
-<body>
+<body @if($title=='Register') class="white-body" @endif>
     @yield("navigation")
 
     @yield('content')
