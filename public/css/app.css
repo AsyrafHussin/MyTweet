@@ -8371,20 +8371,19 @@ button.close {
   border: none;
 }
 
-.navbar .navbar-header .navbar-toggle:focus {
-  background: transparent;
-}
-
-.navbar .navbar-header .navbar-toggle:hover {
-  background: transparent;
-}
-
-.navbar .navbar-header .navbar-toggle:visited {
-  background: transparent;
-}
-
+.navbar .navbar-header .navbar-toggle:focus,
+.navbar .navbar-header .navbar-toggle:hover,
+.navbar .navbar-header .navbar-toggle:visited,
 .navbar .navbar-header .navbar-toggle:active {
   background: transparent;
+}
+
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:focus,
+.navbar-default .navbar-nav .active a:hover {
+  border-bottom: 2px solid #1b95e0;
+  background-color: #fff;
+  color: #1b95e0;
 }
 
 .navbar-shadow {
@@ -8414,6 +8413,11 @@ button.close {
 .container-padding {
   padding-left: 10% !important;
   padding-right: 10% !important;
+}
+
+.container-main {
+  max-width: 1250px !important;
+  width: 100% !important;
 }
 
 .login-content {

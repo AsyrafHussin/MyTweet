@@ -3,23 +3,11 @@
 <head>
     <title>MyTweet | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css">
 
     <style>
-    body{
-        background: #e6ecf0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-
-    .navbar{
-        background: #fff;
-        -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-    }
-
     .nav-pills-custom>li>a {
         color: lightgrey;
     }
@@ -34,12 +22,7 @@
         background: none;
         border-bottom: none;
     }
-
-    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-        border-bottom: 2px solid #1b95e0;
-        background-color: #fff;
-        color: #1b95e0;
-    }
+    
     .form-control-nav{
         background-color: #fff;
         border: 1px solid #e6ecf0;
@@ -125,15 +108,11 @@
         border: none;
     }
 
-    .container{ 
-      max-width:1250px; 
-      width:100%; 
-    }
     </style>
 </head>
 <body>
-    <div class="navbar navbar-default navbar-static-top">
-        <div class="container">
+    <div class="navbar navbar-default navbar-static-top navbar-shadow">
+        <div class="container container-main">
             <div class="navbar-collapse navbar-collapse-1 collapse" aria-expanded="true">
                 <ul class="nav navbar-nav">
                     <li class="active" style="margin-top: -4px;">
@@ -164,7 +143,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container container-main">
         <div class="row">
             <div class="col-sm-3">
                 <div class="panel panel-default">
