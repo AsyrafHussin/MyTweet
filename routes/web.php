@@ -22,3 +22,7 @@ Route::get('signup', function () {
 Route::get('home', function () {
     return view('home');
 });
+
+Route::get('profile', function () {
+    return view('home');
+});
